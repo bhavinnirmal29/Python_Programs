@@ -1,0 +1,9 @@
+n1=1
+n2=2
+n3=3
+n4=4
+n5=5
+res=(n1+n2+n3+n4+n5)
+res1=(n1+n2+n3+n4+n5)/5
+print("Sum of 5 nos = %d"%res)
+print("Average of 5 nos = {0}".format(res1))

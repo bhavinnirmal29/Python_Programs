@@ -1,0 +1,10 @@
+num=int(input("Enter a number "))
+num1=2
+sum1=0
+count = -1
+while (num1!=0) :
+    num1 = int(num%10)
+    num = int(num/10)
+    sum1=sum1+num1
+    count=count+1
+print("Number of digits = %d"%(count))
